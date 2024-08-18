@@ -1,0 +1,129 @@
+body {
+    background: rgb(236, 236, 236);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Header */
+
+header {
+    gap: 20px;
+}
+header img {
+    width: 100%;
+    max-width: 600px;
+}
+header form {
+    background: white;
+    max-width: 450px;
+}
+header form input {
+  font-size: 20px;
+  width: 100%;
+  background: none;
+  border: none;
+}
+header form button {
+  cursor: pointer;
+  border: none;
+  background: white;
+  padding: 0;
+}
+header form img {
+    width: 30px;
+    height: 30px;
+}
+/* Link de regreso */
+
+.regresar {
+    text-decoration: none;
+}
+.regresar p {
+    font-size: 20px;
+}
+.regresar img {
+    padding: 0;
+    margin: 0;
+    width: 20px;
+}
+
+/* tarjetas */
+
+.tarjeta-perfil {
+    min-width: 350px;
+    max-width: 450px;
+    width: 90%;
+    box-shadow: 0 0 5px rgb(199, 199, 199);
+}
+.tarjeta-perfil p a {
+    color: rgb(0, 119, 255);
+    text-decoration: none;
+}
+.tarjeta-perfil h3 {
+    gap: 10px;
+}
+.tarjeta-perfil h4 {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(0, 153, 255);
+    cursor: pointer;
+}
+.tarjeta-perfil h4 img {
+    width: 15px;
+}
+.tarjeta-perfil h3 img {
+    width: 25px;
+    height: 25px;
+}
+.tarjeta-perfil ul {
+    list-style: none;
+    box-shadow: 0px 0px 2px rgb(165, 165, 165);
+}
+.tarjeta-perfil ul li {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.tarjeta-perfil ul li p {
+    margin: 0 5px 0 0;
+    color: rgb(209, 136, 0);
+    text-shadow: 0px 0px 2px rgb(228, 228, 228);
+}
+.tarjeta-perfil ul li img {
+    width: 25px;
+}
+.tarjeta-cp {
+    width: 80%;
+}
+@media (min-width: 768px) {
+ .tarjeta-cp {
+    font-size: 25px;
+    max-width: none;
+}   
+}
+
+/* Footer */
+
+footer {
+    background: black;
+}
+.footer-superior {
+    background: #C2C2C2;
+}
+.footer-superior img {
+    width: 25px;
+}
+.footer-superior ul {
+    list-style: none;
+}
+.footer-superior a {
+    color: black;
+    text-decoration: none;
+}
+.footer-superior a:hover {
+    text-decoration: underline;
+}
+.footer-inferior {
+    background: #444444;
+}
+.footer-inferior p, .footer-inferior b {
+    font-size: 15px;
+}

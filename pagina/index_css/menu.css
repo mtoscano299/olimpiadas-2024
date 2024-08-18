@@ -14,13 +14,13 @@
   border-right: 1px solid white;
   transition: 0.3s ease;
 }
-.menu div img[src="imgs/user.png"] {
+.menu div img[src="imgs/user.png"], img[src="../imgs/user.png"] {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   border: 2px solid white;
 }
-.menu img[src="imgs/x.png"] {
+.menu img[src="imgs/x.png"], img[src="../imgs/x.png"] {
   cursor: pointer;
   position: absolute;
   top: 20px;
@@ -59,7 +59,7 @@ hr {
   color: white;
   font-size: 15px;
 }
-.menu ul li a img[src="imgs/flecha-derecha.png"] {
+.menu ul li a img[src="imgs/flecha-derecha.png"], .menu ul li a img[src="../imgs/flecha-derecha.png"] {
   filter: invert(100%);
   width: 15px;
   position: absolute;
@@ -190,7 +190,9 @@ hr {
 .user-menu-desktop ul li img {
   cursor: pointer;
   width: 25px;
+  height: 25px;
 }
 .user-menu-desktop ul li a img {
   width: 25px;
+  height: 25px;
 }

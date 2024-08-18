@@ -7,16 +7,16 @@ header {
   z-index: 10;
   border-bottom: 1px solid gray;
 }
-header img[src="imgs/icon.png"] {
+header img[src="imgs/icon.png"], img[src="../imgs/icon.png"] {
   width: 45px;
   height: 45px;
   cursor: pointer;
   margin: 10px 0px 10px 10px;
 }
-header img[src="imgs/horizonsports.png"] {
+header img[src="imgs/horizonsports.png"], img[src="../imgs/horizonsports.png"] {
   width: 300px;
 }
-header img[src="imgs/menu.png"] {
+header img[src="imgs/menu.png"], img[src="../imgs/menu.png"] {
   filter: invert(100%);
   width: 40px;
   height: 40px;
@@ -37,7 +37,7 @@ header form button {
   background: white;
   padding: 0;
 }
-header form button img[src="imgs/lupa.png"] {
+img[src="imgs/lupa.png"], img[src="../imgs/lupa.png"]  {
   width: 30px;
   height: 30px;
 }
