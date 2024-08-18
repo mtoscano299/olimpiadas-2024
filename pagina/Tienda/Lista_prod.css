@@ -1,0 +1,13 @@
+.card {
+  border: 1px solid #ddd;
+}
+
+.price {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.btn img {
+  width: 20px;
+  height: 20px;
+}
