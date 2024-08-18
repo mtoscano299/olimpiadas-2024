@@ -1,0 +1,90 @@
+* {
+  font-family: "Glacial Indifference", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  background: black;
+}
+header img {
+  width: 90%;
+  max-width: 430px;
+}
+
+/* Formulario */
+
+form {
+  width: 350px;
+  background: rgb(56, 56, 56);
+  color: rgb(255, 255, 255);
+}
+label {
+  font-weight: bold;
+}
+form input {
+  color: white;
+  font-size: 20px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+form div img {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+button {
+  padding: 10px 15px 10px 15px;
+  text-shadow: 0px 0px 20px black;
+  font-size: 25px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background: rgb(71, 255, 47);
+}
+
+/* Inico de sesion */
+
+.a-password {
+  color: rgb(0, 132, 255);
+  text-decoration: none;
+}
+
+/* Footer */
+
+footer {
+    background: black;
+}
+.footer-superior {
+    background: #C2C2C2;
+}
+.footer-superior img {
+    width: 25px;
+}
+.footer-superior ul {
+    list-style: none;
+}
+.footer-superior a {
+    color: black;
+    text-decoration: none;
+}
+.footer-superior a:hover {
+    text-decoration: underline;
+}
+.footer-inferior {
+    background: #444444;
+}
+.footer-inferior p, .footer-inferior b {
+    font-size: 15px;
+}
