@@ -1,6 +1,6 @@
 # Pagina para las olimpiadas-2024
 
-###Subpag. terminadas:
+### Subpag. terminadas:
 - Inicio
 - Perfil
 - Registro
