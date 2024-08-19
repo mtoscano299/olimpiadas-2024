@@ -1,3 +1,16 @@
+/* Barra para filtrar producto*/
+
+.filter-bar {
+  padding: 100px 20px 20px 20px;
+}
+@media (max-width: 768px) {
+  .filter-bar {
+    padding: 135px 20px 20px 20px;
+  }
+}
+
+/* Nose, lo hizo el pelado */
+
 .card {
   border: 1px solid #ddd;
 }
