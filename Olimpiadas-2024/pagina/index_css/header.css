@@ -1,0 +1,76 @@
+/* Header CSS */
+header {
+  width: 100%;
+  max-width: 100%;
+  height: 115px;
+  background: black;
+  z-index: 10;
+  border-bottom: 1px solid gray;
+}
+header img[src="imgs/icon.png"] {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  margin: 10px 0px 10px 10px;
+}
+header img[src="imgs/horizonsports.png"] {
+  width: 300px;
+}
+header img[src="imgs/menu.png"] {
+  filter: invert(100%);
+  width: 40px;
+  height: 40px;
+  margin: 10px 10px 10px 0px;
+}
+h1 {
+  font-family: "Horizon", sans-serif;
+  font-weight: bold;
+}
+header form {
+  background: white;
+  width: 90%;
+  max-width: 300px;
+}
+header form button {
+  cursor: pointer;
+  border: none;
+  background: white;
+  padding: 0;
+}
+header form button img[src="imgs/lupa.png"] {
+  width: 30px;
+  height: 30px;
+}
+header form input {
+  font-size: 20px;
+  width: 100%;
+  background: none;
+  border: none;
+}
+
+/* Responsive Header */
+
+@media (min-width: 768px) {
+  header {
+    height: 85px;
+  }
+  header form {
+    position: absolute;
+    top: 25px;
+    right: 180px;
+  }
+}
+header .sm-icon {
+  background: black;
+  width: 200px;
+  max-width: 100%;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+header .sm-horizon {
+  height: 50px;
+}
+header .sm-horizon-img {
+  width: 200px;
+}

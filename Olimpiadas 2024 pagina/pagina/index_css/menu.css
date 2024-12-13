@@ -1,0 +1,196 @@
+/* Ver menu */
+
+.menu.ver {
+  transform: translateX(0%);
+}
+
+/* Menu CSS */
+
+.menu {
+  z-index: 15;
+  transform: translateX(-100%);
+  background: #2c2c2c;
+  width: 320px;
+  border-right: 1px solid white;
+  transition: 0.3s ease;
+}
+.menu div img[src="imgs/user.png"] {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.menu img[src="imgs/x.png"] {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  filter: invert(100%);
+}
+.links a {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.links p {
+  padding: 0;
+  margin: 0;
+}
+
+/* Separacion por el HR */
+
+hr {
+  margin: 10px;
+  width: 100%;
+  background: white;
+}
+
+/* Productos */
+
+.menu ul {
+  list-style: none;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.menu ul li a img[src="imgs/flecha-derecha.png"] {
+  filter: invert(100%);
+  width: 15px;
+  position: absolute;
+  margin-top: 5px;
+  right: 20px;
+}
+
+/* User Menu */
+
+.user_menu li a {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+}
+.user_menu li a img {
+  filter: invert(100%);
+  width: 30px;
+}
+
+/* footer menu */
+
+.footer_menu {
+  font-size: 15px;
+  color: gray;
+}
+
+/* Fondo negro con opacidad */
+
+#menu_screen {
+  display: none;
+  z-index: 14;
+  position: fixed;
+  width: 100%;
+  height: 1500px;
+  background: black;
+  opacity: 70%;
+  transition: 0.3s ease;
+}
+#menu_screen.ver_menu_screen {
+  display: block;
+}
+
+/* Responsive Menu */
+
+.links-perfil {
+  display: none;
+  background: black;
+  position: absolute;
+  top: 85px;
+  right: 0px;
+  padding: 20px;
+  gap: 30px;
+  border: 1px solid gray;
+  border-top: none;
+}
+.links-perfil a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+#perfil-desktop.ver_perfil_desktop {
+  display: flex;
+}
+.dekstop-menu {
+  color: white;
+}
+.dekstop-menu p {
+  font-weight: bold;
+  position: absolute;
+  top: 30px;
+  left: 210px;
+  font-size: 15px;
+}
+.dekstop-menu p:hover {
+  cursor: pointer;
+  text-decoration: underline white;
+}
+.dekstop-menu img {
+  filter: invert(100%);
+  margin-bottom: 5px;
+  margin-right: 5px;
+  width: 20px;
+}
+.dekstop-menu #productos-sm {
+  display: none;
+}
+#productos-sm.ver_menu_desktop {
+  display: block;
+}
+.productos-sm {
+  position: absolute;
+  top: 85px;
+  left: 220px;
+  background: rgb(0, 0, 0);
+  border-left: 1px solid grey;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  list-style: none;
+}
+.productos-sm li a {
+  text-decoration: none;
+  color: white;
+}
+.productos-sm li a:hover {
+  text-decoration: underline white;
+}
+@media (min-width: 850px) {
+  .dekstop-menu p {
+    top: 25px;
+    left: 230px;
+    font-size: 20px;
+  }
+}
+
+/* User Menu Desktop */
+
+.user-menu-desktop {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+.user-menu-desktop ul {
+  list-style: none;
+  gap: 20px;
+}
+.user-menu-desktop ul li img {
+  cursor: pointer;
+  width: 25px;
+}
+.user-menu-desktop ul li a img {
+  width: 25px;
+}
